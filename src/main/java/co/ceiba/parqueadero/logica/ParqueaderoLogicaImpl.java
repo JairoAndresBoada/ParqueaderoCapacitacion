@@ -7,9 +7,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import co.ceiba.parqueadero.exception.ParqueaderoExcepciones;
-import co.ceiba.parqueadero.exception.ParqueaderoLogicaExcepciones;
-import co.ceiba.parqueadero.exception.VehiculoExcepciones;
+import co.ceiba.parqueadero.excepciones.ParqueaderoExcepciones;
+import co.ceiba.parqueadero.excepciones.ParqueaderoLogicaExcepciones;
+import co.ceiba.parqueadero.excepciones.VehiculoExcepciones;
 import co.ceiba.parqueadero.modelo.Moto;
 import co.ceiba.parqueadero.modelo.Parqueadero;
 import co.ceiba.parqueadero.modelo.Vehiculo;
